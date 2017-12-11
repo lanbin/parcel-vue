@@ -1,0 +1,30 @@
+{
+    "name": "parcel-vue",
+    "version": "1.0.0",
+    "description": "A Vuejs template project packed by parcel",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel -p 2345 index.js",
+        "build": "cross-env NODE_ENV=production parcel build index.js --no-minify -d build/output"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lanbin/parcel-vue.git"
+    },
+    "keywords": [
+        "vuejs",
+        "parcel"
+    ],
+    "author": "lanbin1987@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lanbin/parcel-vue/issues"
+    },
+    "homepage": "https://github.com/lanbin/parcel-vue#readme",
+    "dependencies": {
+        "vue": "^2.5.9"
+    },
+    "devDependencies": {
+        "cross-env": "^5.1.1"
+    }
+}
